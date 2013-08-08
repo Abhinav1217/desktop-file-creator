@@ -142,7 +142,7 @@ def addCategoriesButton():
     
 top = Tk()
 
-top.wm_title("Desktop File Generator")
+top.wm_title("Desktop File Creator")
 rowCount = Counter()
 colCount = Counter()
 
@@ -167,6 +167,7 @@ class ExecContainer:
         preEntry = Entry(execcontainer,textvariable = self.pre)
         preEntry.pack(side=LEFT)
         path = Button(execcontainer)
+	self.choice = ""
         def localChooseFile():
             self.choice = tkFileDialog.askopenfilename()
             path.config(text=self.choice)
