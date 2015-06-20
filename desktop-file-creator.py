@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 """(dot)Desktop File Creator - generates linux .desktop files from a template.
 
 Copyright (C) 2013 Addie MacGruer
