@@ -5,6 +5,11 @@ Simple python script to create .desktop files in linux distros.
 Original author is  addiemacgruer who posted on  google code.  
 This repo was created because google announced to close google code.
 
+**Note:**
+This script require Tkinter lib installed in the system. On fedora use  
+`sudo dnf install tkinter`  
+Another note is that this is written in Python 2. 
+
 --
 __**Original Readme from google code**__  
 
